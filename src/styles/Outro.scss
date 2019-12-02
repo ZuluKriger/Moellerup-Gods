@@ -1,0 +1,26 @@
+.konferenceLogo{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.konf-tekst{
+    display: block;
+    width:50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #77626b;
+}
+
+.nyhedsform{
+    display: block;
+    height:50%;
+    padding: 20px 5px;
+    background-color: white;
+
+    grid-column: 2/3;
+}
+
+.grid-outro{
+    display: grid;
+    grid-template-columns: 3fr 0.9fr;
+}

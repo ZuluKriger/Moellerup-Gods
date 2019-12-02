@@ -1,0 +1,33 @@
+.grid-nyheder{
+    display: grid;
+    height: auto;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 800px;
+}
+
+.feorsteNyhed{
+    display: block;
+
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+
+.nyhedswrapper{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+
+
+img{
+    width: 100%;
+}
+
+.ballet-tekst{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top:15px;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-size: 30px;
+    color: #77626b;
+}

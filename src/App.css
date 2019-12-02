@@ -1,0 +1,9 @@
+.App{
+    background-color: rgb(238, 238, 238);
+    font-family: "playfair Display", Arial, Helvetica, sans-serif;
+}
+
+.sitewrapper{
+    max-width: 900px;
+    margin: 0 auto;
+}
